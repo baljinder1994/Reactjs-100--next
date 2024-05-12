@@ -1,0 +1,25 @@
+S33UECEDE7MFOSR2.stock-market-tracker {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.stock-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.stock-card h3 {
+  margin-top: 0;
+}
+
+.stock-card p {
+  margin: 5px 0;
+}
+
+.stock-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
